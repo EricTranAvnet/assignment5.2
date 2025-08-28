@@ -3,7 +3,7 @@
 # automated testing using assignment-autotest.  It automates the
 # steps described in https://github.com/cu-ecen-5013/assignment-autotest/blob/master/README.md#running-tests
 set -e
-EXPORT FORCE_UNSAFE_CONFIGURE=1
+export FORCE_UNSAFE_CONFIGURE=1
 
 cd `dirname $0`
 test_dir=`pwd`
